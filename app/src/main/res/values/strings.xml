@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">PGM</string>
+    <string name="Wynik">Wynik</string>
+    <string name="WynikNum">0</string>
+    <string name="game">game</string>
+    <string name="czas">30</string>
+    <string name="LA1time">4</string>
+    <string name="LB1time">4</string>
+    <string name="RA1time">4</string>
+    <string name="RB1time">4</string>
+
+    <string name="LA2time">0</string>
+    <string name="LB2time">0</string>
+    <string name="RA2time">0</string>
+    <string name="RB2time">0</string>
+
+    <string name="LA3time">0</string>
+    <string name="LB3time">0</string>
+    <string name="RA3time">0</string>
+    <string name="RB3time">0</string>
+
+    <string name="LA4time">0</string>
+    <string name="LB4time">0</string>
+    <string name="RA4time">0</string>
+    <string name="RB4time">0</string>
+
+    <string name="LA5time">0</string>
+    <string name="LB5time">0</string>
+    <string name="RA5time">0</string>
+    <string name="RB5time">0</string>
+
+
+
+    <string-array name="WynikList">
+    <item>1 Miejsce</item>
+    <item>2 Miejsce</item>
+    <item>3 Miejsce</item>
+    <item>4 Miejsce</item>
+    <item>5 Miejsce</item>
+    <item>6 Miejsce</item>
+    <item>7 Miejsce</item>
+    <item>8 Miejsce</item>
+    <item>9 Miejsce</item>
+    <item>10 Miejsce</item>
+    <item>11 Miejsce</item>
+    <item>12 Miejsce</item>
+    <item>13 Miejsce</item>
+    <item>14 Miejsce</item>
+    <item>15 Miejsce</item>
+    </string-array>
+    <integer-array name="WynikPunkt">
+    <item>1</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    </integer-array>
+</resources>

@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#19cc00"
+    tools:context=".game"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/Wynik"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#19cc00"
+            android:text="@string/Wynik"
+            android:textColor="#a71719"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:id="@+id/WynikNum"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:text="@string/WynikNum" />
+
+        <TextView
+            android:id="@+id/czas"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/czas"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="30sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+
+        <TextView
+            android:id="@+id/LA1"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/LA1time"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@color/colorAccent"
+            />
+
+        <TextView
+            android:id="@+id/LB1"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/LB1time"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@color/colorAccent"
+            />
+
+
+        <TextView
+            android:id="@+id/RA1"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/RA1time"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@color/colorAccent"
+            />
+
+        <TextView
+            android:id="@+id/RB1"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/RB1time"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@color/colorAccent"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+
+        <TextView
+            android:id="@+id/LA2"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/LA2time"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@color/colorAccent"
+            />
+
+        <TextView
+            android:id="@+id/LB2"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/LB2time"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@color/colorAccent"
+            />
+
+        <TextView
+            android:id="@+id/RA2"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/RA2time"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@color/colorAccent"
+            />
+
+        <TextView
+            android:id="@+id/RB2"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/RB2time"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@color/colorAccent"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+
+        <TextView
+            android:id="@+id/LA3"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/LA3time"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@color/colorAccent"
+            />
+
+        <TextView
+            android:id="@+id/LB3"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/LB3time"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@color/colorAccent"
+            />
+
+        <TextView
+            android:id="@+id/RA3"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/RA3time"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@color/colorAccent"
+            />
+
+        <TextView
+            android:id="@+id/RB3"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/RB3time"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@color/colorAccent"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+
+        <TextView
+            android:id="@+id/LA4"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/LA4time"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@color/colorAccent"
+            />
+
+        <TextView
+            android:id="@+id/LB4"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/LB4time"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@color/colorAccent"
+            />
+
+        <TextView
+            android:id="@+id/RA4"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/RA4time"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@color/colorAccent"
+            />
+
+        <TextView
+            android:id="@+id/RB4"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/RB4time"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@color/colorAccent"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+
+        <TextView
+            android:id="@+id/LA5"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/LA5time"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@color/colorAccent"
+            />
+
+        <TextView
+            android:id="@+id/LB5"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/LB5time"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@color/colorAccent"
+            />
+
+        <TextView
+            android:id="@+id/RA5"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/RA5time"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@color/colorAccent"
+            />
+
+        <TextView
+            android:id="@+id/RB5"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/RB5time"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@color/colorAccent"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/LA"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="LA" />
+
+        <Button
+            android:id="@+id/LB"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="LB" />
+
+        <Button
+            android:id="@+id/RA"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="RA" />
+
+        <Button
+            android:id="@+id/RB"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="RB" />
+    </LinearLayout>
+
+
+</LinearLayout>
